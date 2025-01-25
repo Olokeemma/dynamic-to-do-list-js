@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -8,6 +9,7 @@ body {
     margin: 0;
 }
 
+/* App container */
 #todo-app {
     width: 100%;
     max-width: 400px;
@@ -17,6 +19,12 @@ body {
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
+/* Title */
+h1 {
+    text-align: center;
+}
+
+/* Input and Button Styling */
 #task-input {
     width: 100%;
     padding: 10px;
@@ -39,6 +47,7 @@ body {
     background-color: #0056b3;
 }
 
+/* Task List Styling */
 ul {
     list-style-type: none;
     padding: 0;
@@ -54,6 +63,7 @@ li {
     align-items: center;
 }
 
+/* Remove button styling */
 .remove-btn {
     cursor: pointer;
     background-color: #ff6347;
